@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle Lenia 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="uiContainer">
+        <button id="startStopButton">Pause</button>
+        <button id="resetButton">Reset</button>
+    </div>
+    <canvas id="leniaCanvas"></canvas>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
